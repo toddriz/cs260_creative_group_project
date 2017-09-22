@@ -1,0 +1,19 @@
+<div class="header">
+    <div class="title">Gunz 4 dayz</div>
+    <div>Amy Jeppson, Todd Risenmay, Andrew Tangren</div>
+</div>
+<div class="content">
+    <div class="photo-container">
+        <div class="arrow clickable" (click)="prev()">
+            <i class="material-icons">keyboard_arrow_left</i>
+        </div>
+        <div class="main-photo">
+            <img [src]="imgSrc"/>
+        </div>
+        <div class="arrow clickable" (click)="next()">
+            <i class="material-icons">keyboard_arrow_right</i>
+        </div>
+    </div>
+    <div class="gun-title">{{name}}</div>
+    <div class="description">{{description}}</div>
+</div>
